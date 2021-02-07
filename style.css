@@ -1,0 +1,329 @@
+body {
+}
+#animation {
+  height: 126px;
+  width: 83.3333333px;
+  background: url(walkingman.png);
+  margin: 0 auto;
+  position: absolute;
+  left: 60%;
+  bottom: 0%;
+  animation: walkcycle 1s steps(6) infinite, walk 25s infinite;
+}
+
+@keyframes walkcycle {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -500px;
+  }
+}
+
+@keyframes walk {
+  0% {
+    left: 100%;
+    bottom: 0%;
+  }
+  1% {
+    left: 99%;
+  }
+  2% {
+    left: 98%;
+  }
+  3% {
+    left: 97%;
+  }
+  4% {
+    left: 96%;
+  }
+  5% {
+    left: 95%;
+  }
+  6% {
+    left: 94%;
+  }
+  7% {
+    left: 93%;
+  }
+  8% {
+    left: 92%;
+  }
+  9% {
+    left: 91%;
+  }
+  10% {
+    left: 90%;
+  }
+  11% {
+    left: 89%;
+  }
+  12% {
+    left: 88%;
+  }
+  13% {
+    left: 87%;
+  }
+  14% {
+    left: 86%;
+  }
+  15% {
+    left: 85%;
+  }
+  16% {
+    left: 84%;
+  }
+  17% {
+    left: 83%;
+  }
+  18% {
+    left: 82%;
+  }
+  19% {
+    left: 81%;
+  }
+  20% {
+    left: 80%;
+  }
+  21% {
+    left: 79%;
+  }
+  22% {
+    left: 78%;
+  }
+  23% {
+    left: 77%;
+  }
+  24% {
+    left: 76%;
+  }
+  25% {
+    left: 75%;
+  }
+  26% {
+    left: 74%;
+  }
+  27% {
+    left: 73%;
+  }
+  28% {
+    left: 72%;
+  }
+  29% {
+    left: 71%;
+  }
+  30% {
+    left: 70%;
+  }
+  31% {
+    left: 69%;
+  }
+  32% {
+    left: 68%;
+  }
+  33% {
+    left: 67%;
+  }
+  34% {
+    left: 66%;
+  }
+  35% {
+    left: 65%;
+  }
+  36% {
+    left: 64%;
+  }
+  37% {
+    left: 63%;
+  }
+  38% {
+    left: 62%;
+  }
+  39% {
+    left: 61%;
+  }
+  40% {
+    left: 60%;
+  }
+  41% {
+    left: 59%;
+  }
+  42% {
+    left: 58%;
+  }
+  43% {
+    left: 57%;
+  }
+  44% {
+    left: 56%;
+  }
+  45% {
+    left: 55%;
+  }
+  46% {
+    left: 54%;
+  }
+  47% {
+    left: 53%;
+  }
+  48% {
+    left: 52%;
+  }
+  49% {
+    left: 51%;
+  }
+  50% {
+    left: 50%;
+  }
+  51% {
+    left: 49%;
+  }
+  52% {
+    left: 48%;
+  }
+  53% {
+    left: 47%;
+  }
+  54% {
+    left: 46%;
+  }
+  55% {
+    left: 45%;
+  }
+  56% {
+    left: 44%;
+  }
+  57% {
+    left: 43%;
+  }
+  58% {
+    left: 42%;
+  }
+  59% {
+    left: 41%;
+  }
+  60% {
+    left: 40%;
+  }
+  61% {
+    left: 39%;
+  }
+  62% {
+    left: 38%;
+  }
+  63% {
+    left: 37%;
+  }
+  64% {
+    left: 36%;
+  }
+  65% {
+    left: 35%;
+  }
+  66% {
+    left: 34%;
+  }
+  67% {
+    left: 33%;
+  }
+  68% {
+    left: 32%;
+  }
+  69% {
+    left: 31%;
+  }
+  70% {
+    left: 30%;
+  }
+  71% {
+    left: 29%;
+  }
+  72% {
+    left: 28%;
+  }
+  73% {
+    left: 27%;
+  }
+  74% {
+    left: 26%;
+  }
+  75% {
+    left: 25%;
+  }
+  76% {
+    left: 24%;
+  }
+  77% {
+    left: 23%;
+  }
+  78% {
+    left: 22%;
+  }
+  79% {
+    left: 21%;
+  }
+  80% {
+    left: 20%;
+  }
+  81% {
+    left: 19%;
+  }
+  82% {
+    left: 18%;
+  }
+  83% {
+    left: 17%;
+  }
+  84% {
+    left: 16%;
+  }
+  85% {
+    left: 15%;
+  }
+  86% {
+    left: 14%;
+  }
+  87% {
+    left: 13%;
+  }
+  88% {
+    left: 12%;
+  }
+  89% {
+    left: 11%;
+  }
+  90% {
+    left: 10%;
+  }
+  91% {
+    left: 9%;
+  }
+  92% {
+    left: 8%;
+  }
+  93% {
+    left: 7%;
+  }
+  94% {
+    left: 6%;
+  }
+  95% {
+    left: 5%;
+  }
+  96% {
+    left: 4%;
+  }
+  97% {
+    left: 3%;
+  }
+  98% {
+    left: 2%;
+  }
+  99% {
+    left: 1%;
+  }
+  100% {
+    left: 0%;
+    bottom: 0%;
+  }
+}
